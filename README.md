@@ -30,6 +30,10 @@ NeuroX (NeuroX - NeuroWave AI) is an **agentic AI cognitive coach** that autonom
 
 ---
 
+https://github.com/user-attachments/assets/8d38eaef-2a8f-416d-b2c5-67eb45c11a31
+
+
+
 ### 🚀 Use Cases
 - Entrepreneurs, students, and knowledge workers who want to sustain peak mental performance.
 - Individuals recovering from cognitive burnout or trauma.
