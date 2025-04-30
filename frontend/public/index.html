@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroWeaver - AI Cognitive Enhancement</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>NeuroX</span>
+            </div>
+            <ul class="nav-links">
+                <li class="active">
+                    <a href="#dashboard">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals">
+                        <i class="fas fa-bullseye"></i>
+                        <span>Goals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#interventions">
+                        <i class="fas fa-clock"></i>
+                        <span>Interventions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#digital-twin">
+                        <i class="fas fa-user-astronaut"></i>
+                        <span>Digital Twin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#analytics">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Analytics</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="user-profile">
+                <div class="avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="user-info">
+                    <span class="username">User Name</span>
+                    <span class="status">Active</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="header-actions">
+                    <button class="notification-btn">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <button class="settings-btn">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard">
+                <!-- Cognitive State Overview -->
+                <section class="cognitive-state">
+                    <h2>Current Cognitive State</h2>
+                    <div class="state-cards">
+                        <div class="state-card focus">
+                            <div class="state-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="state-info">
+                                <h3>Focus</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%"></div>
+                                </div>
+                                <span class="value">75%</span>
+                            </div>
+                        </div>
+                        <div class="state-card stress">
+                            <div class="state-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="state-info">
+                                <h3>Stress</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 30%"></div>
+                                </div>
+                                <span class="value">30%</span>
+                            </div>
+                        </div>
+                        <div class="state-card energy">
+                            <div class="state-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="state-info">
+                                <h3>Energy</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 60%"></div>
+                                </div>
+                                <span class="value">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Upcoming Interventions -->
+                <section class="upcoming-interventions">
+                    <h2>Upcoming Interventions</h2>
+                    <div class="intervention-cards">
+                        <div class="intervention-card">
+                            <div class="intervention-time">
+                                <span class="time">10:30 AM</span>
+                                <span class="duration">15 min</span>
+                            </div>
+                            <div class="intervention-details">
+                                <h3>Mindfulness Meditation</h3>
+                                <p>Focus enhancement and stress reduction</p>
+                            </div>
+                            <button class="action-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="intervention-card">
+                            <div class="intervention-time">
+                                <span class="time">2:00 PM</span>
+                                <span class="duration">30 min</span>
+                            </div>
+                            <div class="intervention-details">
+                                <h3>Memory Training</h3>
+                                <p>Working memory improvement exercise</p>
+                            </div>
+                            <button class="action-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Digital Twin Visualization -->
+                <section class="digital-twin">
+                    <h2>Digital Twin Simulation</h2>
+                    <div class="twin-visualization">
+                        <div class="brain-waves">
+                            <canvas id="brainWaves"></canvas>
+                        </div>
+                        <div class="twin-stats">
+                            <div class="stat">
+                                <span class="label">Predicted Focus</span>
+                                <span class="value">82%</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Optimal Time</span>
+                                <span class="value">11:00 AM</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Intervention Impact</span>
+                                <span class="value">+15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

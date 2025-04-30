@@ -1,0 +1,38 @@
+{
+  "name": "neuroweaver-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the NeuroWeaver cognitive enhancement platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "axios": "^0.21.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.0"
+  },
+  "homepage": "http://localhost:3000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
