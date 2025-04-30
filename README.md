@@ -1,6 +1,9 @@
-# NeuroWeaver - AI Cognitive Enhancement Platform
+# NeuroX - AI Cognitive Enhancement Platform
 
 A modern web application for cognitive state monitoring and enhancement using AI-powered interventions.
+
+![image](https://github.com/user-attachments/assets/d8f2662b-431c-479c-8552-fedf090b377a)
+
 
 ## Prerequisites
 
